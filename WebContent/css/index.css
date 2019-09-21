@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.red_dot{
+	font-size:25px;
+	margin-right:10px;
+	width:8px;
+	height:8px;
+    display:inline-block;
+    background:url(../images/red_dot.gif)no-repeat;
+    margin-left:10px;
+    color:black;
+}
+
+.table1{
+	width:220px;
+	float:left;
+	border:1px solid #e5e4e1;
+}
+
+.pic{
+	width:200px;
+	height:220px;
+   margin:15px 15px 15px 15px;
+}
+
+.tit{
+	background:#ff9c01;
+	line-height:30px;
+	font-size:14px;
+    text-indent:15px;
+    text-align:left;
+    width:800px;
+    float:left;
+    color:#fff;
+    margin:5px 15px 5px 15px;
+}
+.text{
+	
+	font-size:12px;
+	margin:15px 15px 15px 15px;
+}
+/*左侧导航*/
+.main{
+	margin:10px auto;
+	width:1200px;
+}
+.menu{
+	width:220px;
+	float:left;
+	border:1px solid #e5e4e1;
+}
+.menu li{
+	float:left;
+	width:220px;
+	border-bottom:1px solid #e5ede1;
+	height:33px;
+    line-height:33px;
+    background:#fafafa;
+    font-size:14px;
+    text-align:left;
+}
+.menu li.title{
+	height:33px;
+	background:#e5e4e1;
+	font-size:15px;
+    text-indent:20px;
+    text-align:left;
+    width:100%;
+    line-height:33px;
+    display:inline-block;
+}
+.red_dot{
+	font-size:25px;
+	margin-right:10px;
+	width:8px;
+	height:8px;
+    display:inline-block;
+    background:url(../images/red_dot.gif)no-repeat;
+    margin-left:10px;
+}
+.riqht_arrow{
+	background:url(photo/index/arrow.png) no-repeat;
+	width:20px;
+	height:20px;
+	display:inline-block;
+	float:right;
+}

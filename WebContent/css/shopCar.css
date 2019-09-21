@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+.color{
+    font-color:#c0c0c0;	
+}
+body{
+	margin:10px 50px;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	color:#ce2626;
+	text-decoration:none;
+}
+
+/*顶部*/
+.top_bg{
+	border-bottom:1px solid #ccc;
+	font-size:12px;
+	font-family:"宋体" ;
+    line-height:30px;
+    background:#f7f7f7;
+    height:30px;
+    line-height:30px;
+}
+.orange{
+	font-weight:700;
+    color:#f60;
+}
+.droparrow{
+	
+}
+.shopcart{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	float:left;
+    margin:5px 5px 0 0;
+}
+
+
+
+/*中间区*/
+.two{
+	font: 20px '幼圆';
+	font-color:#5b514f;
+}
+.t_bgcolor{
+	background:#e1dfff;
+}
+.goods_font{
+	font:14px '宋体';
+	color:#404040;
+}
+.name_font{
+	color:#505050;
+}
+.buttontype{
+	font-size:16px;
+	width:30px;
+	height:30px;
+	background-color:#c9c9c9;
+	border-radius:8px;
+	border:1px solid #c9c9c9;
+}
+.input2{
+	width:100px;
+	height:30px;
+	border:1px solid #c0c0c0;
+}
+.input3{
+	font-size:14px;
+	width:90px;
+	height:40px;
+	background-color:#ccfdb5;
+	border-radius:8px;
+	border:1px solid #95fb64;
+}
+.limit{
+	font-size:12px;
+	color:#575757;
+}
+.pic{
+	width:100px;
+	height:100px;
+}
+.right{
+	position:fixed;
+	right:10%;
+}
+.clear{
+	clear:both;
+}
+
+/*底部*/
+.foot_bg{
+	width: 100%;
+	border: 0px;
+	cellspacing: 0px;
+	cellpadding: 0px;
+    height: 35px;
+    frame:void;
+}
+.foot_pic{
+    background:#efefef;
+	width:100%;
+	height:56px;
+	padding-top:0px;
+}
+.padding-top,.foot_text{
+	padding-top:10px;
+	background: #c0c0c0;
+}
+.foot_text{
+	font:14px '宋体';
+	padding-bottom:10px;
+}
+.four{
+	font-size:8px;
+}
+.padding-bottom{
+	padding-bottom:10px;
+	font-size:20px;
+}

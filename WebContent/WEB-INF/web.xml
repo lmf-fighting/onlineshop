@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>OnlineShoping</display-name>
+  
+  <servlet>
+		<servlet-name>goods</servlet-name>
+  		<servlet-class>com.servlet.GoodsServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>goods</servlet-name>
+  		<url-pattern>/listgoods</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>goods</servlet-name>
+  		<url-pattern>/listbrowsegoods</url-pattern>
+  	</servlet-mapping>	
+  	<servlet-mapping>
+  		<servlet-name>goods</servlet-name>
+  		<url-pattern>/viewgoods</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>goods</servlet-name>
+  		<url-pattern>/clearbrowse</url-pattern>
+  	</servlet-mapping>
+  	
+  	
+   	<servlet>
+		<servlet-name>showshopcar</servlet-name>
+  		<servlet-class>com.servlet.ShopcarServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>showshopcar</servlet-name>
+  		<url-pattern>/showshopcar</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>showshopcar</servlet-name>
+  		<url-pattern>/buy</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>showshopcar</servlet-name>
+  		<url-pattern>/submitshopcar</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>showshopcar</servlet-name>
+  		<url-pattern>/remove</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>showshopcar</servlet-name>
+  		<url-pattern>/clearshopcar</url-pattern>
+  	</servlet-mapping>
+  	<servlet-mapping>
+  		<servlet-name>showshopcar</servlet-name>
+  		<url-pattern>/createorderform</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>Login</servlet-name>
+  		<servlet-class>com.servlet.LoginServlet</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>Login</servlet-name>
+  		<url-pattern>/Loginform</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<servlet-name>cart</servlet-name>
+  		<servlet-class>com.servlet.cartProcess</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>cart</servlet-name>
+  		<url-pattern>/cartform</url-pattern>
+  	</servlet-mapping>
+  		<servlet>
+		<servlet-name>cartServlet</servlet-name>
+  		<servlet-class>com.servlet.cartProcess</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>cartServlet</servlet-name>
+  		<url-pattern>/showcart</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    <servlet-name>user</servlet-name>
+    <servlet-class>com.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user</servlet-name>
+    <url-pattern>/userform</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+ <servlet-name>Encodeing</servlet-name>
+ <servlet-class>cn.hncu.com.encode.Encodeing</servlet-class>
+ <init-param>
+ <param-name>charset</param-name>
+ <param-value>utf-8</param-value>
+ </init-param>
+ </servlet>
+  	<!-- 实现编码转换的过滤器 -->
+	<!--  <filter>
+		<filter-name>characterencoding</filter-name>
+		<filter-class>com.filter.CharacterEncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>characterencoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> 
+	验证是否以POST方式提交表单的过滤器
+	<filter>
+		<filter-name>method</filter-name>
+		<filter-class>com.filter.SubmitFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>method</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
+	<!-- 
+	验证是否登录的过滤器
+	<filter>
+		<filter-name>login</filter-name>
+		<filter-class>com.filter.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>login</filter-name>
+		<url-pattern>/submitshopcar</url-pattern>
+	</filter-mapping>  -->
+</web-app>

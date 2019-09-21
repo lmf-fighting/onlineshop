@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+button:{
+	color: black;
+	text-decoration:none;
+	 width: 60px;
+	 height: 40px;
+}
+
+#password:{
+	width:300px;
+	height: 40px;
+}
